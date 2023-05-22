@@ -1,3 +1,3 @@
 # NvChadCustomConfig
 
-This can be used as an example custom config for NvChad, this branch is a minimal one. Do check the feature_full branch if you need all the ease in your config.
+This repo should be cloned inside the "custom" folder of NvChad config
