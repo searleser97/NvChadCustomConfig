@@ -46,6 +46,19 @@ local plugins = {
       require("better_escape").setup()
     end,
   },
+  {
+    "notjedi/nvim-rooter.lua",
+    config = function()
+      require("nvim-rooter").setup({
+        update_cwd = true,
+        update_focused_file = {
+          enable = true,
+          update_cwd = true
+        },
+      })
+    end,
+    lazy = false
+  },
 
   -- To make a plugin not be loaded
   -- {
