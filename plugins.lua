@@ -59,6 +59,26 @@ local plugins = {
     end,
     lazy = false
   },
+  {
+    "kdheepak/lazygit.nvim",
+    -- optional for floating window border decoration
+    dependencies = {
+        "nvim-lua/plenary.nvim",
+    },
+    lazy = false
+  },
+  {
+    "tpope/vim-fugitive",
+    lazy = false
+  },
+  {
+    "rbong/vim-flog",
+    -- optional for floating window border decoration
+    dependencies = {
+        "tpope/vim-fugitive",
+    },
+    lazy = false
+  },
 
   -- To make a plugin not be loaded
   -- {
