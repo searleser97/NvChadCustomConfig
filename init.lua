@@ -8,6 +8,7 @@
 local opt = vim.opt
 
 opt.relativenumber = true
+vim.wo.wrap = false;
 
 vim.api.nvim_create_autocmd("WinLeave", {
   callback = function()

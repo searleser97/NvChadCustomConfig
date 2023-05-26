@@ -3,6 +3,9 @@ local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
 
+lspconfig.dartls.setup({
+  cmd = { "dart", "language-server", "--protocol=lsp" },
+});
 -- if you just want default config for the servers then put them in a table
 local servers = { "html", "cssls", "tsserver", "clangd" }
 
